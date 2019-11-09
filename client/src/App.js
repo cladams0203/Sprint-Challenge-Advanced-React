@@ -16,7 +16,7 @@ class App extends React.Component {
       .then(res => {
         this.setState({data: res.data})
       })
-      .catch(err => console.error(err))
+      .catch(err => console.log(err))
   }
   
   render() {
